@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eidaho <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: asmall <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/21 11:38:34 by eidaho            #+#    #+#             */
-/*   Updated: 2019/10/21 11:38:36 by eidaho           ###   ########.fr       */
+/*   Created: 2019/04/12 19:04:09 by vfearles          #+#    #+#             */
+/*   Updated: 2019/04/15 22:24:38 by vfearles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ char				**ft_strsplit(char const *s, char c)
 	i = 0;
 	if (s == NULL || !(array = (char **)matrm(sizeof(char *) * (g(s, c) + 1))))
 		return (NULL);
-	while (s != '\0')
+	while (*s != '\0')
 	{
 		while (*s == c)
 			s++;
