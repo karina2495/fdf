@@ -14,7 +14,7 @@ Valid fdf files will always have the same number of elements per row.
 
 Example fdf file:
 
-(/screen/1m9uNoOMLSE.jpg)
+![Example:](/screen/1m9uNoOMLSE.jpg)
 
 ### Output
 The program will attempt to render the model described by the fdf file in a graphical window.
